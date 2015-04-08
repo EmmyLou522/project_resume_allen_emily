@@ -20,12 +20,12 @@
 }
 
 @font-face {
-    font-family: bodyFont;
+    font-family: subheadFont;
     src: url('fonts/Muli-Regular.ttf');
 }
 
 @font-face {
-    font-family: lightFont;
+    font-family: bodyFont;
     src: url('fonts/Muli-Light.ttf');
 }
 
@@ -45,6 +45,9 @@ header {
     font-weight: lighter;
 }
 
+header h1 {
+    display: none;
+}
 figure {
     padding-top: .2em;
     padding-bottom: .1em;
@@ -131,6 +134,7 @@ img {
 #software {
     padding-right: 1.5em;
     padding-bottom: 2.5em;
+    border-bottom: 1px solid #DDCFC4;
 }
 
 #software ul {
@@ -142,9 +146,32 @@ img {
     font-family: bodyFont;
 }
 
-.light {
-    font-family: lightFont;
-    padding-bottom: .1em;
+#contact {
+    padding-right: 1.5em;
+    padding-bottom: 2.5em;
+}
+
+#contact h1 {
+    padding-bottom: .5em;
+}
+
+#contact p {
+    padding-top: .5em;
+    padding-left: 1.5em;
+    padding-bottom: .5em;
+    font-family: bodyFont;
+}
+
+#contact a {
+    font-family: bodyFont;
+    padding-top: .5em;
+    padding-left: 1.5em;
+    color: #4E3D30;
+}
+
+p.subhead {
+    font-family: subheadFont;
+    padding-bottom: .3em;
 }
 
 footer {
