@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+@font-face {
+    font-family: scriptFont;
+	src: url('fonts/Carolinea.woff') format('woff');
+}
+
+@font-face {
+    font-family: sectionHeading;
+    src: url('fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: headingFont;
+    src: url('fonts/Raleway-Light.ttf');
+}
+
+@font-face {
+    font-family: bodyFont;
+    src: url('fonts/Muli-Regular.ttf');
+}
+
+@font-face {
+    font-family: lightFont;
+    src: url('fonts/Muli-Light.ttf');
+}
+
+body {
+    background-color: #FAF7F3;
+    color: #4E3D30;
+}
+
+header {
+    width: 100%;
+    background-color: #DDCFC4;
+    color: #FAF7F3;
+    font-size: 80px;
+    text-align: center;
+    padding-top: .2em;
+    font-family: scriptFont;
+    font-weight: lighter;
+}
+
+figure {
+    padding-top: .2em;
+    padding-bottom: .1em;
+}
+
+img {
+    width: 130px;
+    height: 130px;
+    border-radius: 65px;
+}
+
+#phone {
+    display: none;
+}
+
+#email {
+    display: none;
+}
+
+#experience {
+    padding-bottom: 2em;
+    border-bottom: 1px solid #DDCFC4;
+}
+
+.sectionheading {
+    font-family: sectionHeading;
+    padding-top: 1.5em;
+    padding-left: 1em;
+}
+
+.jobs {
+    padding-top: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: .5em;
+}
+
+.jobs h1 {
+    padding-bottom: .5em;
+    font-family: headingFont;
+}
+
+.jobs p {
+    padding-bottom: .5em;
+    font-family: bodyFont;
+}
+
+#education {
+    background-color: #FAF7F3;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #DDCFC4;
+}
+
+.school {
+    padding-top: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: .5em;
+}
+
+.school h1 {
+    padding-bottom: .5em;
+    font-family: headingFont;
+}
+
+.school p {
+    padding-bottom: .5em;
+    font-family: bodyFont;
+}
+
+#skills {
+    padding-right: 1.5em;
+    padding-bottom: 2.5em;
+    border-bottom: 1px solid #DDCFC4;
+}
+
+#skills p {
+    padding-top: .5em;
+    padding-left: 1.5em;
+    padding-bottom: .5em;
+    font-family: bodyFont;
+}
+
+#software {
+    padding-right: 1.5em;
+    padding-bottom: 2.5em;
+}
+
+#software ul {
+    padding-top: .5em;
+    padding-left: 2.5em;
+}
+
+#software li {
+    font-family: bodyFont;
+}
+
+.light {
+    font-family: lightFont;
+    padding-bottom: .1em;
+}
+
+footer {
+    background-color: #DDCFC4;
+    height: 50px;
+    font-family: bodyFont;
+    text-align: center;
+    padding-top: 2em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FAF7F3;
+}
