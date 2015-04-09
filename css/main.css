@@ -60,14 +60,6 @@ img {
     border-radius: 65px;
 }
 
-#phone {
-    display: none;
-}
-
-#email {
-    display: none;
-}
-
 #experience {
     padding-bottom: 2em;
     border-bottom: 1px solid #DDCFC4;
@@ -181,6 +173,7 @@ footer {
     font-family: bodyFont;
     text-align: center;
     padding-top: 2em;
+    width: 100%;
 }
 
 footer a {
@@ -190,6 +183,25 @@ footer a {
 
 /* for tablet */
 @media screen and (min-width: 768px)  {
+header {
+    height: 150px;
+}
+
+header figure {
+    float: left;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 1em;
+}
+
+header p {
+    width: 300px;
+    clear: left;
+    margin-left: -1.5em;
+    display: inline;
+    height: 2em;
+    margin-top: 5em;
+}
 
 .block h1 {
     float: left;
@@ -239,5 +251,10 @@ article.school {
 
 footer {
     clear: both;
+}
+
+#wrapper {
+    max-width: 900px;
+    margin: auto;
 }
 }
