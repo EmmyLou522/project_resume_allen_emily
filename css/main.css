@@ -34,6 +34,19 @@ body {
     color: #4E3D30;
 }
 
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: #555;
+    color: #fff;
+    text-decoration: none;
+    font-family: bodyFont;
+    font-size: 10px;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
 header {
     width: 100%;
     background-color: #DDCFC4;
