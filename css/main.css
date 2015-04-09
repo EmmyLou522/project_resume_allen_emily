@@ -48,6 +48,7 @@ header {
 header h1 {
     display: none;
 }
+
 figure {
     padding-top: .2em;
     padding-bottom: .1em;
@@ -185,4 +186,58 @@ footer {
 footer a {
     text-decoration: none;
     color: #FAF7F3;
+}
+
+/* for tablet */
+@media screen and (min-width: 768px)  {
+
+.block h1 {
+    float: left;
+    width: 20%;
+    padding-right: 1em;
+}
+
+#experience {
+    border-bottom: none;
+}
+    
+article.jobs {
+    float: right;
+    width: 75%;
+}
+
+#education {
+    border-bottom: none;
+}
+
+article.school {
+    float: right;
+    width: 75%;
+}
+
+.school h1 {
+    width: 100%;
+}
+  
+#skills {
+    border-bottom: none;
+}
+
+#software {
+    border-bottom: none;
+}
+    
+#software ul {
+    float: right;
+    width: 75%;
+}
+
+.singlepara {
+    float: right;
+    width: 80.5%;
+}
+
+footer {
+    clear: both;
+}
 }
