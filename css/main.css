@@ -50,7 +50,7 @@ header {
     width: 100%;
     background-color: #DDCFC4;
     color: #FAF7F3;
-    font-size: 80px;
+    font-size: 65px;
     text-align: center;
     padding-top: .2em;
     font-family: scriptFont;
@@ -63,7 +63,7 @@ header h1 {
 }
 
 header p {
-    padding-top: .5em;
+    padding-top: .6em;
     margin: auto;
 }
 
@@ -208,10 +208,15 @@ footer a {
 @media screen and (min-width: 768px)  {
 header {
     height: 150px;
+    padding-top: .2em;
 }
 
 figure {
     padding-left: 1em;
+}
+ 
+header {
+    font-size: 80px;
 }
     
 header p {
