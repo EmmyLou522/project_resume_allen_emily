@@ -56,15 +56,26 @@ header {
     padding-top: .2em;
     font-family: scriptFont;
     font-weight: lighter;
+    height: 145px;
 }
 
 header h1 {
     display: none;
 }
 
+header p {
+    padding-top: .5em;
+    margin: auto;
+}
+
+.hiddencontact {
+    display: none;
+}
+
 figure {
-    padding-top: .2em;
-    padding-bottom: .1em;
+    padding-top: -.1em;
+    padding-left: .2em;
+    float: left;
 }
 
 img {
@@ -185,8 +196,9 @@ footer {
     height: 50px;
     font-family: bodyFont;
     text-align: center;
-    padding-top: 2em;
+    margin-top: 2em;
     width: 100%;
+    padding-top: 1.5em;
 }
 
 footer a {
@@ -200,22 +212,36 @@ header {
     height: 150px;
 }
 
-header figure {
-    float: left;
-    padding-top: 0px;
-    padding-bottom: 0px;
+figure {
     padding-left: 1em;
 }
-
 header p {
-    width: 300px;
-    clear: left;
-    margin-left: -1.5em;
-    display: inline;
-    height: 2em;
-    margin-top: 5em;
+    margin-bottom: -.2em;
+    padding-top: .2em;
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+header ul {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+.hiddencontact {
+    display: inline;
+    font-family: subheadFont;
+    font-size: 15px;
+    margin-top: -2em;
+    padding-right: 1.2em;
+}
+
+.hiddencontact a {
+    color: #FAF7F3;
+}
+    
 .block h1 {
     float: left;
     width: 20%;
@@ -259,7 +285,13 @@ article.school {
 
 .singlepara {
     float: right;
-    width: 80.5%;
+    width: 80.1%;
+}
+
+.singlepara a::after {
+    content: '';
+    clear: both;
+    display: block;
 }
 
 footer {
