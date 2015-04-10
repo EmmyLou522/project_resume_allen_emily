@@ -44,7 +44,6 @@ body {
     font-family: bodyFont;
     font-size: 10px;
     opacity: 0.5;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
 header {
@@ -73,7 +72,6 @@ header p {
 }
 
 figure {
-    padding-top: -.1em;
     padding-left: .2em;
     float: left;
 }
